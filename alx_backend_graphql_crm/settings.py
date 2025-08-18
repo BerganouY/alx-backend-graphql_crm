@@ -1,5 +1,5 @@
 """
-Django settings for alx_backend_graphql_crm project.
+Django settings for alx_backend_graphql_crm3 project.
 """
 
 import os
@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alx_backend_graphql_crm.urls'
+ROOT_URLCONF = 'alx_backend_graphql_crm3.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alx_backend_graphql_crm.wsgi.application'
+WSGI_APPLICATION = 'alx_backend_graphql_crm3.wsgi.application'
 
 # Database
 DATABASES = {
@@ -97,5 +97,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # GraphQL Configuration
 GRAPHENE = {
-    'SCHEMA': 'alx_backend_graphql_crm.schema.schema'
+    'SCHEMA': 'alx_backend_graphql_crm3.schema.schema'
 }
